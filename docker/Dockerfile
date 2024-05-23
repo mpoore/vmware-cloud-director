@@ -10,7 +10,7 @@ LABEL \
     org.label-schema.version=${VERSION}
 
 # Install packages
-RUN dnf install -y alsa-lib chkconfig coreutils initscripts iproute libICE libSM  libX11 \
+RUN dnf install -y alsa-lib chkconfig coreutils initscripts iproute libICE libSM libX11 \
     libXau libXdmcp libXext libXi libXt libXtst module-init-tools \
     openssl net-tools pciutils procps python3-distro wget which --allowerasing
 
